@@ -1,0 +1,42 @@
+@import "fonts";
+@import "visually-hidden";
+@import "variables";
+
+// index.html
+
+@import "blocks/main-header";
+@import "blocks/main-navigation";
+@import "blocks/site-list";
+@import "blocks/page-main";
+@import "blocks/programms";
+@import "blocks/programms-list";
+@import "blocks/product-description";
+@import "blocks/description-list";
+@import "blocks/example";
+@import "blocks/example-list";
+@import "blocks/coop";
+@import "blocks/map";
+@import "blocks/main-footer";
+@import "blocks/socials-list";
+
+//form.html
+
+@import "blocks/form-main";
+@import "blocks/extra-list";
+@import "blocks/plan-list";
+@import "blocks/button";
+
+//catalog.html
+
+@import "blocks/catalog";
+@import "blocks/goodies-list";
+@import "blocks/info-list";
+@import "blocks/addl-paragraph";
+@import "blocks/addl-list";
+@import "blocks/order-all";
+
+body {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+}

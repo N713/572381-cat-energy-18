@@ -3,17 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="fonts/oswaldmedium.woff2.woff2" as="font">
+    <link rel="preload" href="fonts/oswaldregular.woff2.woff2" as="font">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <header class="main-header">
       <div class="main-header__wrapper">
         <a class="main-header__logo-link">
-          <img class="main-header__logo-image" src="https://via.placeholder.com/39x39">
+          <img class="main-header__logo-image" src="img/logo-mobile.svg" width="191" height="39">
         </a>
-        <p class="main-header__paragraph">
-          <b class="main-header__b">Cat</b>Energy
-        </p>
-        <button class="main-header__burger">Бургер</button>
+        <button class="main-header__burger">
+          <img class="main-header__open-icon" src="img/icon-mobile-menu.svg" width="25" height="19">
+        </button>
       </div>
       <nav class="main-nav">
         <ul class="main-nav__list site-list">
@@ -34,11 +37,12 @@
         <h1 class="page-main__promo-header">Функциональное питание для котов</h1>
         <p class="page-main__promo-slogan">Занялся собой? Займись котом!</p>
       </section>
+      <img class="product-image" src="img/index-can-mobile@1x.png" width="280" height="270">
       <section class="programms">
-        <button class="programms__choose-button">Подобрать программу</button>
+        <button class="programms__choose-button button">Подобрать программу</button>
         <ul class="programms__types programms-list">
           <li class="programms-list__item">
-            <img class="programms-list__image" src="https://via.placeholder.com/67x50">
+            <img class="programms-list__image" src="img/icon-cat-slim.svg" width="35" height="49">
             <span class="programms-list__span">Похудение</span>
             <p class="programms-list__description">
               Ваш кот весит больше собаки и почти утратил способность лазить по деревьям?
@@ -47,7 +51,7 @@
             <a href="#" class="programms__type-link">Каталог slim</a>
           </li>
           <li class="programms-list__item">
-            <img class="programms-list__image" src="https://via.placeholder.com/67x50">
+            <img class="programms-list__image" src="img/icon-cat-pro.svg" width="67" height="28">
             <span class="programms-list__span">Набор массы</span>
             <p class="programms-list__description">
               Заработать авторитет среди дворовых котов и даже собак?
@@ -61,25 +65,25 @@
         <h2 class="product-description__header">Как это работает</h2>
         <ul class="product-description__list description-list">
           <li class="description-list__item">
-            <img class="description-list__item-image" src="https://via.placeholder.com/60x60">
+            <img class="description-list__item-image" src="img/advantage-leaf@1x.png" width="26" height="29">
             <p class="desription-list__item-paragraph">
               Функциональное питание содержит только полезные питательные вещества.
             </p>
           </li>
           <li class="description-list__item">
-            <img class="description-list__item-image" src="https://via.placeholder.com/60x60">
+            <img class="description-list__item-image" src="img/advantage-powder@1x.png" width="29" height="31">
             <p class="desription-list__item-paragraph">
               Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
             </p>
           </li>
           <li class="description-list__item">
-            <img class="description-list__item-image" src="https://via.placeholder.com/60x60">
+            <img class="description-list__item-image" src="img/advantage-dining@1x.png" width="23" height="30">
             <p class="desription-list__item-paragraph">
               Замените один-два приема обычной еды на наше функциональное питание.
             </p>
           </li>
           <li class="description-list__item">
-            <img class="description-list__item-image" src="https://via.placeholder.com/60x60">
+            <img class="description-list__item-image" src="img/advantage-clock@1x.png" width="26" height="31">
             <p class="desription-list__item-paragraph">
               Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
             </p>
@@ -120,28 +124,30 @@
           Санкт-Петербург
         </p>
       </section>
-      <section class="map"></section>
+      <section class="map">
+        <img src="img/bg-map-mobile@1x.png" width="320" height="400">
+      </section>
       <footer class="main-footer">
         <p class="main-header__paragraph">
-          <b class="main-header__b">Cat</b>Energy
+          <img src="img/logo-footer.svg" width="128" height="24">
         </p>
         <ul class="main-footer__socials socials-list">
           <li class="social-list__item">
-            <img class="social-list__item-image" src="https://via.placeholder.com/39x39">
+            <img class="social-list__item-image" src="img/icon-vk.svg" width="22" height="12">
           </li>
           <li class="social-list__item">
-            <img class="social-list__item-image" src="https://via.placeholder.com/39x39">
+            <img class="social-list__item-image" src="img/icon-insta.svg" width="17" height="17">
           </li>
           <li class="social-list__item">
-            <img class="social-list__item-image" src="https://via.placeholder.com/39x39">
+            <img class="social-list__item-image" src="img/icon-fb.svg" width="10" height="19">
           </li>
         </ul>
         <div class="main-footer__copyright">
           <a class="main-footer__academy-link">
-            <span>HTML Academy</span>
+            <span class="main-footer__academy-span">HTML Academy</span>
           </a>
           <a class="main-footer__academy-logo-link">
-            <img class="main-footer__academy-logo-image" src="https://via.placeholder.com/39x39">
+            <img class="main-footer__academy-logo-image" src="img/htmlacademy.svg" width="27" height="34">
           </a>
         </div>
       </footer>

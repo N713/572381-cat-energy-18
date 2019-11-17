@@ -1,0 +1,9 @@
+$color-leaf: #68b738;
+$color-grey: #f2f2f2;
+$greyish: #444444;
+
+@mixin arial-text($text) {
+  font-family: "Arial", sans-serif;
+  font-size: $text;
+  color: $greyish;
+}

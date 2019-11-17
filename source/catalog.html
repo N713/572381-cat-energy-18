@@ -3,17 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="fonts/oswaldmedium.woff2.woff2" as="font">
+    <link rel="preload" href="fonts/oswaldregular.woff2.woff2" as="font">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <header class="main-header">
       <div class="main-header__wrapper">
         <a class="main-header__logo-link">
-          <img class="main-header__logo-image" src="https://via.placeholder.com/39x39">
+          <img class="main-header__logo-image" src="img/logo-mobile.svg" width="191" height="39">
         </a>
-        <p class="main-header__paragraph">
-          <b class="main-header__b">Cat</b>Energy
-        </p>
-        <button class="main-header__burger">Бургер</button>
+        <button class="main-header__burger">
+          <img class="main-header__open-icon" src="img/icon-mobile-menu.svg" width="25" height="19">
+        </button>
       </div>
       <nav class="main-nav">
         <ul class="main-nav__list site-list">
@@ -21,10 +24,10 @@
             <a href="index.html" class="site-list__link">Главная</a>
           </li>
           <li class="site-list__item">
-            <span class="site-list__link">Каталог продукции</span>
+            <span class="site-list__link" href="catalog.html">Каталог продукции</span>
           </li>
           <li class="site-list__item">
-            <a href="form.html" class="site-list__link">Подбор программы</a>
+            <a class="site-list__link" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </nav>
@@ -219,25 +222,25 @@
       </section>
       <footer class="main-footer">
         <p class="main-header__paragraph">
-          <b class="main-header__b">Cat</b>Energy
+          <img src="img/logo-footer.svg" width="128" height="24">
         </p>
         <ul class="main-footer__socials socials-list">
           <li class="social-list__item">
-            <img class="social-list__item-image" src="https://via.placeholder.com/39x39">
+            <img class="social-list__item-image" src="img/icon-vk.svg" width="22" height="12">
           </li>
           <li class="social-list__item">
-            <img class="social-list__item-image" src="https://via.placeholder.com/39x39">
+            <img class="social-list__item-image" src="img/icon-insta.svg" width="17" height="17">
           </li>
           <li class="social-list__item">
-            <img class="social-list__item-image" src="https://via.placeholder.com/39x39">
+            <img class="social-list__item-image" src="img/icon-fb.svg" width="10" height="19">
           </li>
         </ul>
         <div class="main-footer__copyright">
           <a class="main-footer__academy-link">
-            <span>HTML Academy</span>
+            <span class="main-footer__academy-span">HTML Academy</span>
           </a>
           <a class="main-footer__academy-logo-link">
-            <img class="main-footer__academy-logo-image" src="https://via.placeholder.com/39x39">
+            <img class="main-footer__academy-logo-image" src="img/htmlacademy.svg" width="27" height="34">
           </a>
         </div>
       </footer>
