@@ -1,0 +1,12 @@
+.coop {
+  outline: 1px dashed lightseagreen;
+}
+
+.coop__offer {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.coop__adress {
+  @include arial-text(14px);
+}

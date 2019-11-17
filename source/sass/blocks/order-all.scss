@@ -1,0 +1,8 @@
+.order-all {
+  background-color: $color-leaf;
+}
+
+.order-all__paragraph {
+  @include arial-text(16px);
+  color: #ffffff;
+}

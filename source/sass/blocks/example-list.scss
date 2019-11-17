@@ -1,0 +1,12 @@
+.example-list {
+  list-style: none;
+}
+
+.example-list__item-number {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.example-list__item-text {
+  @include arial-text(12px);
+}

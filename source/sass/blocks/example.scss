@@ -1,0 +1,22 @@
+.example {
+  outline: 1px dashed lightskyblue;
+}
+
+.example__header {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.example__paragraph {
+  @include arial-text(14px);
+}
+
+.example__cost {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.example__stage {
+  font-size: 16px;
+  text-transform: uppercase;
+}

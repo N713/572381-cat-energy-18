@@ -1,0 +1,23 @@
+.programms-list {
+  list-style: none;
+  outline: 1px dashed lightcoral;
+}
+
+.programms-list__item {
+  background-color: $color-grey;
+}
+
+.programms-list__span {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.programms-list__description {
+  @include arial-text(14px);
+}
+
+.programms__type-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+}

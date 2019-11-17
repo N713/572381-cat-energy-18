@@ -1,5 +1,6 @@
 @import "fonts";
 @import "visually-hidden";
+@import "variables";
 
 // index.html
 
@@ -22,6 +23,7 @@
 
 @import "blocks/form-main";
 @import "blocks/extra-list";
+@import "blocks/plan-list";
 @import "blocks/button";
 
 //catalog.html

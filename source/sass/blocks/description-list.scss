@@ -1,0 +1,11 @@
+.description-list {
+  list-style: none;
+}
+
+.description-list__item-image {
+  filter: invert(1);
+}
+
+.desription-list__item-paragraph {
+  @include arial-text(14px);
+}

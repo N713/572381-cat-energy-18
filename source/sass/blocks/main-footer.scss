@@ -1,0 +1,7 @@
+.main-footer {
+  outline: 1px dashed lightcoral;
+}
+
+.main-footer__academy-span {
+  @include arial-text(16px);
+}
